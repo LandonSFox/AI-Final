@@ -11,7 +11,7 @@ nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('stopwords')
 
-GOOGLE_BOOKS_API_KEY = "AIzaSyDuGgORd_2tGky5eLBdnOskzXccsOh_srE" 
+GOOGLE_BOOKS_API_KEY = "" # removed key since public repo 
 
 # Function to fetch book info from Google Books API
 def fetch_google_books_data(title, author=None):
